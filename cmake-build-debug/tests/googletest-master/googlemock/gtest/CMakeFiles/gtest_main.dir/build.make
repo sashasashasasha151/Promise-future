@@ -60,15 +60,15 @@ tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_mai
 tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/includes_CXX.rsp
 tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: ../tests/googletest-master/googletest/src/gtest_main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
-	cd /d C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\tests\googletest-master\googlemock\gtest && C:\MinGW\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c C:\Google\CodeProjects\C++\promise_future\tests\googletest-master\googletest\src\gtest_main.cc
+	cd /d C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\tests\googletest-master\googlemock\gtest && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c C:\Google\CodeProjects\C++\promise_future\tests\googletest-master\googletest\src\gtest_main.cc
 
 tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /d C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\tests\googletest-master\googlemock\gtest && C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Google\CodeProjects\C++\promise_future\tests\googletest-master\googletest\src\gtest_main.cc > CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
+	cd /d C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\tests\googletest-master\googlemock\gtest && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Google\CodeProjects\C++\promise_future\tests\googletest-master\googletest\src\gtest_main.cc > CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
 
 tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /d C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\tests\googletest-master\googlemock\gtest && C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Google\CodeProjects\C++\promise_future\tests\googletest-master\googletest\src\gtest_main.cc -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
+	cd /d C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\tests\googletest-master\googlemock\gtest && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Google\CodeProjects\C++\promise_future\tests\googletest-master\googletest\src\gtest_main.cc -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
 
 tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj.requires:
 

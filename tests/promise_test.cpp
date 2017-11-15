@@ -134,8 +134,10 @@ TEST(flatten, flatten_vector) {
     v.emplace_back(std::move(onef));
     v.emplace_back(std::move(twof));
     Future<std::vector<int>> out = Flatte(v);
-//    for (int i = 0; i < 2; ++i) {
-//        ASSERT_EQ(vv[i],v[i].Get());
-//    }
+    for (int i = 0; i < 2; ++i) {
+        ASSERT_EQ(vv[i],v[i].Get());
+    }
 }
+
+
 

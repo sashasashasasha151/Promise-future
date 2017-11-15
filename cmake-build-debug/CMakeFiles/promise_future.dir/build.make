@@ -60,15 +60,15 @@ CMakeFiles/promise_future.dir/source/main.cpp.obj: CMakeFiles/promise_future.dir
 CMakeFiles/promise_future.dir/source/main.cpp.obj: CMakeFiles/promise_future.dir/includes_CXX.rsp
 CMakeFiles/promise_future.dir/source/main.cpp.obj: ../source/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/promise_future.dir/source/main.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\promise_future.dir\source\main.cpp.obj -c C:\Google\CodeProjects\C++\promise_future\source\main.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\promise_future.dir\source\main.cpp.obj -c C:\Google\CodeProjects\C++\promise_future\source\main.cpp
 
 CMakeFiles/promise_future.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/promise_future.dir/source/main.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Google\CodeProjects\C++\promise_future\source\main.cpp > CMakeFiles\promise_future.dir\source\main.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Google\CodeProjects\C++\promise_future\source\main.cpp > CMakeFiles\promise_future.dir\source\main.cpp.i
 
 CMakeFiles/promise_future.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/promise_future.dir/source/main.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Google\CodeProjects\C++\promise_future\source\main.cpp -o CMakeFiles\promise_future.dir\source\main.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Google\CodeProjects\C++\promise_future\source\main.cpp -o CMakeFiles\promise_future.dir\source\main.cpp.s
 
 CMakeFiles/promise_future.dir/source/main.cpp.obj.requires:
 
@@ -85,15 +85,15 @@ CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: CMakeFiles/promise_fut
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: CMakeFiles/promise_future.dir/includes_CXX.rsp
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: ../tests/promise_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Google\CodeProjects\C++\promise_future\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\promise_future.dir\tests\promise_test.cpp.obj -c C:\Google\CodeProjects\C++\promise_future\tests\promise_test.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\promise_future.dir\tests\promise_test.cpp.obj -c C:\Google\CodeProjects\C++\promise_future\tests\promise_test.cpp
 
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/promise_future.dir/tests/promise_test.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Google\CodeProjects\C++\promise_future\tests\promise_test.cpp > CMakeFiles\promise_future.dir\tests\promise_test.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Google\CodeProjects\C++\promise_future\tests\promise_test.cpp > CMakeFiles\promise_future.dir\tests\promise_test.cpp.i
 
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/promise_future.dir/tests/promise_test.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Google\CodeProjects\C++\promise_future\tests\promise_test.cpp -o CMakeFiles\promise_future.dir\tests\promise_test.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Google\CodeProjects\C++\promise_future\tests\promise_test.cpp -o CMakeFiles\promise_future.dir\tests\promise_test.cpp.s
 
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj.requires:
 
