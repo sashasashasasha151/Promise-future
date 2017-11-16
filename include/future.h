@@ -1,3 +1,4 @@
+#pragma once
 #include "shared_state.h"
 
 template<typename _T>
@@ -37,14 +38,8 @@ public:
         if (state->e_ptr != NULL) {
             throw state->e_ptr;
         }
-        std::unique_lock<std::mutex> lock(state->mut);
-        if (!state->ready) {
-            throw std::runtime_error("Result is not already ready");
-        }
-        _T &res = state->data;
-        lock.unlock();
-        state->cond.notify_all();
-        return res;
+        Wait();
+        return state->data;
     }
 
     bool IsReady() {
@@ -57,7 +52,7 @@ public:
         return ready;
     }
 
-    void Wait() {
+    void Wait() const {
         if (!state->still_promise && !state->ready) {
             throw std::runtime_error("No promise");
         }
@@ -66,7 +61,7 @@ public:
         }
         {
             std::unique_lock<std::mutex> lock(state->mut);
-            state->cond.wait(lock, [this] { return state->ready; });
+            state->cond.wait(lock, [this] { return state->ready.load(); });
         }
     }
 };
@@ -179,7 +174,7 @@ public:
         }
         {
             std::unique_lock<std::mutex> lock(state->mut);
-            state->cond.wait(lock, [this] { return state->ready; });
+            state->cond.wait(lock, [this] { return state->ready.load(); });
         }
     }
 };

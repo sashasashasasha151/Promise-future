@@ -1,3 +1,4 @@
+#pragma once
 #include "future.h"
 
 template<typename _T>

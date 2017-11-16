@@ -1,3 +1,4 @@
+#pragma once
 #include "promise.h"
 
 template<typename T>
@@ -16,7 +17,7 @@ template<typename T>
 using get_type = typename get_inner_type<T>::type;
 
 template<typename _T>
-Future<_T> Flatten(Future<_T> const &fut) {
+Future<_T> Flatten(Future<_T> fut) {
     Promise<_T> p;
     auto ret_fut = p.GetFuture();
     p.Set(fut.Get());
