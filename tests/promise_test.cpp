@@ -139,5 +139,3 @@ TEST(flatten, flatten_vector) {
     }
 }
 
-
-

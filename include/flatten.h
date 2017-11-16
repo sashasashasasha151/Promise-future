@@ -1,10 +1,5 @@
 #include "promise.h"
 
-/*template <typename _T>
-struct get_inner_type {
-    typedef get_inner_type<typename _T> type;
-};*/
-
 template<typename T>
 struct get_inner_type
 {
