@@ -31,7 +31,12 @@ public:
         return *this;
     }
 
-    const _T &  Get() const {
+    _T &  Get() const {
+
+        if (!state->still_promise) {
+            throw std::runtime_error("No promise or result");
+        }
+        Wait();
         if (!state->still_promise && !state->ready) {
             throw std::runtime_error("No promise and result");
         }
@@ -43,13 +48,7 @@ public:
     }
 
     bool IsReady() {
-        bool ready;
-        {
-            std::lock_guard<std::mutex> lock(state->mut);
-            ready = state->ready;
-        }
-        state->cond.notify_all();
-        return ready;
+        return state->ready.load();
     }
 
     void Wait() const {
@@ -129,7 +128,7 @@ public:
         }
         {
             std::unique_lock<std::mutex> lock(state->mut);
-            state->cond.wait(lock, [this] { return state->ready; });
+            state->cond.wait(lock, [this] { return state->ready.load(); });
         }
     }
 };

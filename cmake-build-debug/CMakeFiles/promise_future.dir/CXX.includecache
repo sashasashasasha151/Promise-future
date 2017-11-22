@@ -29,6 +29,8 @@ exception
 -
 memory
 -
+atomic
+-
 
 ../tests/googletest-master/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -305,6 +307,14 @@ acxx_demangle.h
 C:/Google/CodeProjects/C++/promise_future/source/main.cpp
 gtest/gtest.h
 -
+thread
+-
+future.h
+C:/Google/CodeProjects/C++/promise_future/source/future.h
+promise.h
+C:/Google/CodeProjects/C++/promise_future/source/promise.h
+flatten.h
+C:/Google/CodeProjects/C++/promise_future/source/flatten.h
 
 C:/Google/CodeProjects/C++/promise_future/tests/promise_test.cpp
 flatten.h

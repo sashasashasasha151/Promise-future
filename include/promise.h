@@ -25,7 +25,7 @@ public:
     Promise &operator=(const Promise &) = delete;
 
     Promise(Promise &&other) : state(nullptr) {
-        state = other.state;
+        state = std::move(other.state);
         other.state = nullptr;
     }
 
@@ -43,8 +43,7 @@ public:
             if (state->ready) {
                 throw std::runtime_error("Result is already ready");
             }
-            _T &f = const_cast<_T&>(value);
-            state->data = std::move(f);
+            state->data = value;
             state->ready = true;
         }
         state->cond.notify_all();
@@ -56,7 +55,7 @@ public:
             if (state->ready) {
                 throw std::runtime_error("Result is already ready");
             }
-            state->data = value;
+            state->data = std::move(value);
             state->ready = true;
         }
         state->cond.notify_all();

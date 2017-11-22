@@ -97,7 +97,7 @@ TEST(flatten, flatten_future) {
 
     promise.Set(10);
     promise1.Set(10);
-    Future<int> future3 = Flatten(future);
+    Future<int> future3 = Flatten(std::move(future));
     ASSERT_EQ(future1.Get(), future3.Get());
 }
 
@@ -112,13 +112,13 @@ TEST(flatten, flatten_a_lot_of_futures) {
 
     Promise<Future<int>> promise2;
     Future<Future<int>> future2 = promise2.GetFuture();
-    promise2.Set(future1);
+    promise2.Set(std::move(future1));
 
     Promise<Future<Future<int>>> promise3;
     Future<Future<Future<int>>> future3 = promise3.GetFuture();
-    promise3.Set(future2);
+    promise3.Set(std::move(future2));
 
-    Future<int> future4 = Flatten(future3);
+    Future<int> future4 = Flatten(std::move(future3));
     ASSERT_EQ(future.Get(), future4.Get());
 }
 
@@ -133,9 +133,10 @@ TEST(flatten, flatten_vector) {
     two.Set(2);
     v.emplace_back(std::move(onef));
     v.emplace_back(std::move(twof));
-    Future<std::vector<int>> out = Flatte(v);
+    Future<std::vector<int>> out = Flatte(std::move(v));
+    std::vector<int> k = out.Get();
     for (int i = 0; i < 2; ++i) {
-        ASSERT_EQ(vv[i],v[i].Get());
+        ASSERT_EQ(vv[i],k[i]);
     }
 }
 
