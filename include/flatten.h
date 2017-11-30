@@ -1,3 +1,4 @@
+#pragma once
 #include "promise.h"
 
 template<typename T>
@@ -15,25 +16,10 @@ struct get_inner_type<E<T>>
 template<typename T>
 using get_type = typename get_inner_type<T>::type;
 
-//template<typename _T>
-//Future<_T> Flatten(Future<_T> const &fut) {
-//    Promise<_T> p;
-//    auto ret_fut = p.GetFuture();
-//    p.Set(fut.Get());
-//    return ret_fut;
-//};
 template<typename _T>
 Future<_T> Flatten(Future<_T> &&fut) {
     return std::move(fut);
 }
-
-//template<typename _T>
-//Future<get_type<_T>>  Flatten(Future<Future<_T>> const &fut) {
-//    Promise<Future<_T>> p;
-//    auto ret_fut = p.GetFuture();
-//    p.Set(fut.Get());
-//    return Flatten(ret_fut.Get());
-//}
 
 template<typename T>
 Future<get_type<T>> Flatten(Future<Future<T>> future) {

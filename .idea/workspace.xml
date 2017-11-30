@@ -16,25 +16,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5dcfa8d-53a8-4bbd-9fe0-d7d32c16342b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/Map.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/ThreadPool.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/source/main.cpp.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/promise_future.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/libgtest_maind.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/libgtestd.a" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/objects.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/source/main.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/source/main.cpp.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/promise_future.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/promise_future.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/libgtest_maind.a" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/libgtest_maind.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/libgtestd.a" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/libgtestd.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/depend.internal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/promise_future.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/promise_future.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/promise_future.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/flatten.h" afterPath="$PROJECT_DIR$/include/flatten.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/future.h" afterPath="$PROJECT_DIR$/include/future.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/promise.h" afterPath="$PROJECT_DIR$/include/promise.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/shared_state.h" afterPath="$PROJECT_DIR$/include/shared_state.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/main.cpp" afterPath="$PROJECT_DIR$/source/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/promise_test.cpp" afterPath="$PROJECT_DIR$/tests/promise_test.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,25 +55,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="promise.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/promise.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-              <folding>
-                <element signature="e#42#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="future.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="future.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/future.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="-180">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
                 <element signature="e#48#61#0" expanded="true" />
+                <element signature="e#1251#1274#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,11 +71,12 @@
       <file leaf-file-name="shared_state.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/shared_state.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="399">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#13#29#0" expanded="true" />
                 <element signature="e#146#159#0" expanded="true" />
+                <element signature="e#385#408#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,49 +85,27 @@
       <file leaf-file-name="flatten.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/flatten.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="54" column="35" lean-forward="false" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#30#42#0" expanded="true" />
-                <element signature="e#99#139#0" expanded="true" />
-                <element signature="e#108#118#0" expanded="true" />
-                <element signature="e#233#245#0" expanded="true" />
-                <element signature="e#484#497#0" expanded="true" />
-                <element signature="e#795#807#0" expanded="true" />
-                <element signature="e#1193#1248#0" expanded="true" />
-                <element signature="e#1202#1225#0" expanded="true" />
+                <element signature="e#43#55#0" expanded="true" />
+                <element signature="e#112#152#0" expanded="true" />
+                <element signature="e#121#131#0" expanded="true" />
+                <element signature="e#246#258#0" expanded="true" />
+                <element signature="e#319#332#0" expanded="true" />
+                <element signature="e#410#422#0" expanded="true" />
+                <element signature="e#808#863#0" expanded="true" />
+                <element signature="e#817#840#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/googletest-master/googlemock/make/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2121">
-              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="117" lean-forward="false" selection-start-line="6" selection-start-column="117" selection-end-line="6" selection-end-column="117" />
+            <state relative-caret-position="84">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,10 +114,45 @@
       <file leaf-file-name="promise_test.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/promise_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1239">
-              <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#14#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPool.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/ThreadPool.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-893">
+              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <folding>
+                <element signature="e#13#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Map.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#36#0" expanded="true" />
+                <element signature="e#92#116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +165,8 @@
       <find>lib</find>
       <find>valu</find>
       <find>Result is not already ready</find>
+      <find>CMAKE_CXX_FLAGS</find>
+      <find>ready</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,12 +179,14 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_boost_1_65_1.zip/boost_1_65_1/boost/core/noncopyable.hpp" />
         <option value="$USER_HOME$/Downloads/Telegram Desktop/future.cpp" />
         <option value="$PROJECT_DIR$/include/shared_state.h" />
+        <option value="$PROJECT_DIR$/include/future.h" />
         <option value="$PROJECT_DIR$/source/main.cpp" />
         <option value="$PROJECT_DIR$/include/flatten.h" />
-        <option value="$PROJECT_DIR$/include/future.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/tests/promise_test.cpp" />
         <option value="$PROJECT_DIR$/include/promise.h" />
+        <option value="$PROJECT_DIR$/include/ThreadPool.h" />
+        <option value="$PROJECT_DIR$/include/Map.h" />
+        <option value="$PROJECT_DIR$/tests/promise_test.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -238,24 +253,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googletest-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="promise_future" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="promise_future" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -302,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.All in promise_test.cpp">
+  <component name="RunManager" selected="Application.promise_future">
     <configuration default="false" name="All in promise_test.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="promise_future" TARGET_NAME="promise_future" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="promise_future" RUN_TARGET_NAME="promise_future" TEST_PATTERN="promise.*:promise/*.*:*/promise.*/*:*/promise/*.*:flatten.*:flatten/*.*:*/flatten.*/*:*/flatten/*.*" TEST_MODE="PATTERN">
       <envs />
       <method />
@@ -572,7 +569,8 @@
       <workItem from="1510830987907" duration="1844000" />
       <workItem from="1510849059502" duration="107000" />
       <workItem from="1510849419712" duration="44000" />
-      <workItem from="1511381205746" duration="660000" />
+      <workItem from="1511381205746" duration="10893000" />
+      <workItem from="1511960538502" duration="18363000" />
     </task>
     <task id="LOCAL-00001" summary="Now work">
       <created>1510784947974</created>
@@ -595,60 +593,68 @@
       <option name="project" value="LOCAL" />
       <updated>1511384430388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.0">
+      <created>1511384460946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511384460946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 34m 14s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 16m 58s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 36m 11s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 17m 03s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 38m 06s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 17m 12s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 38m 52s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 17m 14s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 41m 34s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 18m 10s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 42m 23s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 18m 12s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 45m 32s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 20m 56s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 45m 48s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 21m 00s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 14h 48m 51s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 21m 04s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_promise_test_cpp - 2017.11.16 at 19h 19m 06s.xml">
+    <history-entry file="All_in_promise_test_cpp - 2017.11.30 at 14h 21m 19s.xml">
       <configuration name="All in promise_test.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126491000" />
+    <option name="totallyTimeSpent" value="155087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17615467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38391846" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33861834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33635333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46998867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36806342" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33522084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -670,31 +676,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tests/promise_test.cpp</url>
-          <line>54</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tests/promise_test.cpp</url>
-          <line>61</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tests/promise_test.cpp</url>
-          <line>66</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/include/promise.h</url>
-          <line>41</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="future" language="ObjectiveC" />
+      </configuration>
       <configuration name="CMakeRunConfiguration">
         <watch expression="promise" />
       </configuration>
@@ -703,65 +690,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/include/promise.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding>
-            <element signature="e#42#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/future.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="e#48#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/shared_state.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <element signature="e#13#29#0" expanded="true" />
-            <element signature="e#146#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/promise_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="63" column="38" lean-forward="false" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/promise.h">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
+            <element signature="e#43#56#0" expanded="false" />
+            <element signature="e#1707#1730#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,6 +705,7 @@
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
             <element signature="e#48#61#0" expanded="true" />
+            <element signature="e#1251#1274#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -783,6 +717,7 @@
           <folding>
             <element signature="e#13#29#0" expanded="true" />
             <element signature="e#146#159#0" expanded="true" />
+            <element signature="e#385#408#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -799,7 +734,7 @@
         <state relative-caret-position="945">
           <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#14#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,7 +752,7 @@
         <state relative-caret-position="273">
           <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#14#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,7 +762,8 @@
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
+            <element signature="e#43#56#0" expanded="false" />
+            <element signature="e#1707#1730#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,6 +775,7 @@
           <folding>
             <element signature="e#13#29#0" expanded="true" />
             <element signature="e#146#159#0" expanded="true" />
+            <element signature="e#385#408#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -856,6 +793,7 @@
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#48#61#0" expanded="true" />
+            <element signature="e#1251#1274#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -905,20 +843,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/promise.h___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/../ThreadPool/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/googletest-master/googletest/src/gtest.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="5019" column="0" lean-forward="false" selection-start-line="5019" selection-start-column="0" selection-end-line="5019" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/future.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -1003,14 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/googletest-master/googlemock/make/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2121">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/include/c++/7.2.0/thread">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1018,86 +934,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/flatten.h">
+    <entry file="file://$PROJECT_DIR$/tests/googletest-master/googlemock/make/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="35" lean-forward="false" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding>
-            <element signature="e#30#42#0" expanded="true" />
-            <element signature="e#99#139#0" expanded="true" />
-            <element signature="e#108#118#0" expanded="true" />
-            <element signature="e#233#245#0" expanded="true" />
-            <element signature="e#484#497#0" expanded="true" />
-            <element signature="e#795#807#0" expanded="true" />
-            <element signature="e#1193#1248#0" expanded="true" />
-            <element signature="e#1202#1225#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="808">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/main.cpp">
+    <entry file="file://C:/MinGW/include/c++/7.2.0/bits/move.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/shared_state.h">
+    <entry file="file://$PROJECT_DIR$/tests/googletest-master/googletest/src/gtest.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding>
-            <element signature="e#13#29#0" expanded="true" />
-            <element signature="e#146#159#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="2772" column="0" lean-forward="false" selection-start-line="2772" selection-start-column="0" selection-end-line="2772" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/include/c++/7.2.0/bits/invoke.h">
+    <entry file="file://$PROJECT_DIR$/../ThreadPool/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="344">
+          <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://C:/MinGW/include/c++/7.2.0/x86_64-w64-mingw32/bits/gthr-default.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="117" lean-forward="false" selection-start-line="6" selection-start-column="117" selection-end-line="6" selection-end-column="117" />
+        <state relative-caret-position="145">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/promise.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="157">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
+            <element signature="e#43#56#0" expanded="false" />
+            <element signature="e#1707#1730#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/promise_test.cpp">
+    <entry file="file://$PROJECT_DIR$/include/shared_state.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#13#29#0" expanded="true" />
+            <element signature="e#146#159#0" expanded="true" />
+            <element signature="e#385#408#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/future.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="-180">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="e#48#61#0" expanded="true" />
+            <element signature="e#1251#1274#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/c++/7.2.0/bits/std_function.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="706" column="0" lean-forward="false" selection-start-line="706" selection-start-column="0" selection-end-line="706" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/c++/7.2.0/bits/invoke.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/flatten.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#55#0" expanded="true" />
+            <element signature="e#112#152#0" expanded="true" />
+            <element signature="e#121#131#0" expanded="true" />
+            <element signature="e#246#258#0" expanded="true" />
+            <element signature="e#319#332#0" expanded="true" />
+            <element signature="e#410#422#0" expanded="true" />
+            <element signature="e#808#863#0" expanded="true" />
+            <element signature="e#817#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/promise_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/googletest-master/googletest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#36#0" expanded="true" />
+            <element signature="e#92#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ThreadPool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#13#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

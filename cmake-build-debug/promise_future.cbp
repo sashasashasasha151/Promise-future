@@ -338,6 +338,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Google/CodeProjects/C++/promise_future/include/Map.h">
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="C:/Google/CodeProjects/C++/promise_future/include/ThreadPool.h">
+			<Option target="promise_future"/>
+		</Unit>
 		<Unit filename="C:/Google/CodeProjects/C++/promise_future/include/flatten.h">
 			<Option target="promise_future"/>
 		</Unit>

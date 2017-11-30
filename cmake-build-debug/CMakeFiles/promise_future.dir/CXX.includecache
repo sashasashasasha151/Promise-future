@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+../include/Map.h
+type_traits
+-
+flatten.h
+../include/flatten.h
+ThreadPool.h
+../include/ThreadPool.h
+
+../include/ThreadPool.h
+condition_variable
+-
+iostream
+-
+functional
+-
+mutex
+-
+queue
+-
+random
+-
+thread
+-
+
 ../include/flatten.h
 promise.h
 ../include/promise.h
@@ -319,6 +343,10 @@ C:/Google/CodeProjects/C++/promise_future/source/flatten.h
 C:/Google/CodeProjects/C++/promise_future/tests/promise_test.cpp
 flatten.h
 C:/Google/CodeProjects/C++/promise_future/tests/flatten.h
+Map.h
+C:/Google/CodeProjects/C++/promise_future/tests/Map.h
+string
+-
 thread
 -
 gtest/gtest.h

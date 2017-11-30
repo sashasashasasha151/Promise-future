@@ -4,8 +4,8 @@
 project(promise_future)
 cmake_minimum_required(VERSION 3.2)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pedantic -Wall -Wextra -Wno-char-subscripts -Wno-unused-result -g")
-#set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -std=c++11 -O2 -g")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pedantic -Wall -Wextra -Wno-char-subscripts -Wno-unused-result -g")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -ggdb -g")
 
 add_definitions(-D_GTEST)
 #add_definitions(-DNDEBUG)
@@ -27,7 +27,7 @@ if ("$ENV{GTEST}" STREQUAL "y")
     add_definitions(-D_GTEST)
 endif ()
 
-add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${HEADER_FILES} include/flatten.h)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${HEADER_FILES} include/flatten.h include/ThreadPool.h include/Map.h)
 
 if ("$ENV{GTEST}" STREQUAL "y")
     target_link_libraries(${PROJECT_NAME} ${GTEST_BOTH_LIBRARIES} gmock)

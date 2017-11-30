@@ -29,6 +29,8 @@ CMakeFiles/promise_future.dir/source/main.cpp.obj: ../tests/googletest-master/go
 CMakeFiles/promise_future.dir/source/main.cpp.obj: ../tests/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/promise_future.dir/source/main.cpp.obj: ../source/main.cpp
 
+CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: ../include/Map.h
+CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: ../include/ThreadPool.h
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: ../include/flatten.h
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: ../include/future.h
 CMakeFiles/promise_future.dir/tests/promise_test.cpp.obj: ../include/promise.h
