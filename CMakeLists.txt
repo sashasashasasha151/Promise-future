@@ -4,12 +4,12 @@
 project(promise_future)
 cmake_minimum_required(VERSION 3.2)
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -pedantic -Wall -Wextra -Wno-char-subscripts -Wno-unused-result -g")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -ggdb -g")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -std=c++14 -pedantic -Wall -Wextra -Wno-char-subscripts -Wno-unused-result -g")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -ggdb -g")
 
 add_definitions(-D_GTEST)
 #add_definitions(-DNDEBUG)
-add_definitions(-D_GLIBCXX_DEBUG)
+#add_definitions(-D_GLIBCXX_DEBUG)
 add_subdirectory(tests/googletest-master)
 include_directories(tests/googletest-master/googletest/include)
 include_directories(tests/googletest-master/googlemock/include)

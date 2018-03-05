@@ -6,6 +6,7 @@
 #include <queue>
 #include <random>
 #include <thread>
+#include <atomic>
 
 using namespace std;
 
@@ -14,27 +15,20 @@ public:
 
     static thread_local ThreadPool * this_tp;
 
-    ThreadPool(size_t num_threads) : check_end(0), is_finished(false) {
+    ThreadPool(size_t num_threads) : is_finished(false) {
         for (int i = 0; i < num_threads; ++i)
-            threads.emplace_back(threadStarter, this);
+            threads.emplace_back(&threadStarter, this);
     };
 
     void execute(function<void()> const &foo) {
-        unique_lock<mutex> lock(mutex_queue);
-        fn_queue.emplace(foo);
+        mutex_queue.lock();
+        fn_queue.push(foo);
+        mutex_queue.unlock();
         condition_queue.notify_one();
     };
 
-    void checkEnd() {
-        unique_lock<mutex> lock(mutex_queue);
-        condition_end.wait(lock, [this] { return fn_queue.empty() && check_end == 0; });
-    };
-
     ~ThreadPool() {
-        {
-            unique_lock<mutex> lock(mutex_queue);
-            is_finished = true;
-        }
+        is_finished = true;
         condition_queue.notify_all();
         for (thread &t: threads) {
             t.join();
@@ -46,12 +40,12 @@ private:
         this_tp = this;
         for (;;) {
             unique_lock<mutex> lock(mutex_queue);
-            condition_queue.wait(lock, [this] { return is_finished || !fn_queue.empty(); });
-            if (!fn_queue.empty()) {
-                check_end++;
+            while(!is_finished.load() && fn_queue.empty()) {
+                condition_queue.wait(lock);
+            }
+            if (!fn_queue.empty() && !is_finished.load()) {
 
-                function<void()> func;
-                func = fn_queue.front();
+                function<void()> func = fn_queue.front();
                 fn_queue.pop();
 
                 lock.unlock();
@@ -59,10 +53,8 @@ private:
                 func();
 
                 lock.lock();
-                check_end--;
-                condition_end.notify_one();
             }
-            if (is_finished) {
+            if (is_finished.load()) {
                 return;
             }
         }
@@ -72,8 +64,7 @@ private:
     queue<function<void()>> fn_queue;
     mutex mutex_queue;
     condition_variable condition_queue, condition_end;
-    int check_end;
-    bool is_finished;
+    atomic_bool is_finished;
 };
 
 thread_local ThreadPool * ThreadPool::this_tp = nullptr;

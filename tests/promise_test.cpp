@@ -133,7 +133,7 @@ int ff(int x) { return x * x; }
 TEST(promise, map) {
     Promise<int> promise;
 
-    ThreadPool threadPool(2);
+    ThreadPool threadPool(1);
     threadPool.execute([&promise]() {
         Future<int> f = promise.GetFuture();
 

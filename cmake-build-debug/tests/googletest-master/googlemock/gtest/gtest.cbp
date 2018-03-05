@@ -25,7 +25,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GTEST"/>
-					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest/include"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
@@ -50,7 +49,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GTEST"/>
-					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest/include"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
@@ -75,7 +73,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GTEST"/>
-					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest/include"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
@@ -100,7 +97,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GTEST"/>
-					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest/include"/>
 					<Add directory="C:/Google/CodeProjects/C++/promise_future/tests/googletest-master/googletest"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
