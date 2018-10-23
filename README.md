@@ -82,4 +82,4 @@ template<typename T, typename F>
 Future<F(T)> Map(Future<T> const &future, const F &f);
 ```
 # Tests
-You can run google tests using [___main.cpp___](https://gitlab.com/sashasashasasha151/future/blob/master/source/main.cpp) and add your own to [___either_tests.cpp___](https://gitlab.com/sashasashasasha151/future/blob/master/tests/promise_test.cpp)
+You can run google tests using [___main.cpp___](https://gitlab.com/sashasashasasha151/future/blob/master/source/main.cpp) and add your own to [___promise_test.cpp___](https://gitlab.com/sashasashasasha151/future/blob/master/tests/promise_test.cpp)
