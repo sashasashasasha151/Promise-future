@@ -13,7 +13,7 @@ public:
 }
 ```
 # Future and Promise
-Future and Promise work the same way as std::future and std::promise
+Future and Promise work the same way as `std::future` and `std::promise`
 ### Future and Promise semantic
 ```c++
 template<typename _T>
